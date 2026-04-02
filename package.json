@@ -1,8 +1,12 @@
 {
-  "name": "Projeckt-x1",
+  "name": "projeckt-x1-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
+    "express": "^4.18.2",
     "discord.js": "^14.0.0"
   }
 }
